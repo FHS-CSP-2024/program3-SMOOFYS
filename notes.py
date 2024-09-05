@@ -45,3 +45,18 @@
 #print("\n") # newline
 #print("\t") # tab
 #print("\\") # \
+
+beds = 5
+bath = 1.5
+address = "435 Cool Ln"
+city = "Folsom"
+zip = 95630
+rent = 7000
+
+print(f"House for rent at {address} in {city} ({zip})")
+print(f"\t{beds} bedrooms, {bath} bathrooms")
+print(f"\trent is ${rent}/month")
+
+#file path example
+filePath = "C:\\Users\\myname\\Documents\\Onenote Notebooks"
+print("I have a file located at: " + filePath)
